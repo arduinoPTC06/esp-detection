@@ -101,6 +101,6 @@ if __name__ == "__main__":
         device='cpu',
         batchsz=32,
         imgsz=224,
-        calib_dir="cat_calib",
+        calib_dir="deploy/cat_calib",
         espdl_model_path="espdet_pico_224_224_cat.espdl",
     )

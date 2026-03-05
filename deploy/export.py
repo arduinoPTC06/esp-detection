@@ -123,4 +123,4 @@ def Export(model_path, input_size):
     model.export(format="onnx", simplify=True, opset=13, imgsz=input_size)
 
 if __name__ == '__main__':
-    Export("../cfg/models/espdet_pico.yaml", 224)
+    Export("cfg/models/espdet_pico.yaml", 224)
