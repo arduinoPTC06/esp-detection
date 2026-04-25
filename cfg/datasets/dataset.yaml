@@ -1,0 +1,9 @@
+path: datasets/esp_cat
+train: train/images
+val: valid/images
+kpt_shape: [3, 2]
+flip_idx: [1, 0, 2]
+names:
+    0: dog
+    1: cat
+ 
